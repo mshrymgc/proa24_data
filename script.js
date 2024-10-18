@@ -82,7 +82,11 @@ const study = lab.util.fromObject({
               "label": "PCからGoogle Chromeを用いて実験・調査参加をお願いします。"
             },
             {
-              "label": "実験・調査開始後はブラウザの「戻る」ボタンは使用しないでください。"
+              "label": "自動翻訳機能は使用しないでください。"
+            },
+            {
+              "label": "実験・調査開始後はブラウザの「戻る」ボタンは使用しないでください。",
+              "coding": ""
             },
             {
               "label": "上記の説明をよく読み，理解した上で，実験・調査への参加に同意します。",
@@ -106,7 +110,15 @@ const study = lab.util.fromObject({
         "": ""
       },
       "parameters": {},
-      "messageHandlers": {},
+      "messageHandlers": {
+        "before:prepare": function anonymous(
+) {
+//参加者IDをランダム生成
+const digits = 10;
+const participantID = this.random.range(10**digits, 10**(digits+1));
+this.state.participantID = participantID;
+}
+      },
       "title": "Informed_consent"
     },
     {
@@ -914,7 +926,7 @@ const study = lab.util.fromObject({
                   "width": "5",
                   "anchors": [
                     "まったくそう思わない",
-                    "とてもそう思う",
+                    "そう思わない",
                     "どちらでもない",
                     "そう思う",
                     "とてもそう思う"
@@ -1502,12 +1514,12 @@ const study = lab.util.fromObject({
             {
               "type": "text",
               "title": "",
-              "content": "以上で調査を終了します。\nご協力ありがとうございました。"
+              "content": "以上で調査を終了します。\nご協力ありがとうございました。\nこのままブラウザを閉じてください。"
             },
             {
               "required": true,
               "type": "html",
-              "content": "\u003Cdiv style=\"margin: 20px 0 100px 0; text-align: center;\"\u003E\r\n  \u003Cbutton style=\"display: inline-block;\"\u003E次へ\u003C\u002Fbutton\u003E\r\n\u003C\u002Fdiv\u003E\r\n",
+              "content": "\r\n",
               "name": ""
             }
           ],
