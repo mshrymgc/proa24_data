@@ -1534,7 +1534,7 @@ this.state.participantID = participantID;
           "messageHandlers": {
             "before:prepare": function anonymous(
 ) {
-const participantID = this.parameters.participantID
+const participantID = this.random.uuid4()
 
 const filename = participantID + "_data.csv"
 const data = study.internals.controller.datastore.exportCsv();
