@@ -94,7 +94,7 @@ const study = lab.util.fromObject({
         {
           "required": true,
           "type": "html",
-          "content": "\u003Cdiv style=\"margin: 20px 0 100px 0;\"\u003E\u003Cbutton\u003E次へ\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\r\n",
+          "content": "\u003Cdiv style=\"margin: 20px 0 100px 0; text-align: center;\"\u003E\r\n  \u003Cbutton style=\"display: inline-block;\"\u003E次へ\u003C\u002Fbutton\u003E\r\n\u003C\u002Fdiv\u003E\r\n",
           "name": ""
         }
       ],
@@ -138,7 +138,7 @@ const study = lab.util.fromObject({
             {
               "required": true,
               "type": "html",
-              "content": "\u003Cdiv style=\"margin: 20px 0 100px 0;\"\u003E\u003Cbutton\u003E次へ\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\r\n",
+              "content": "\u003Cdiv style=\"margin: 20px 0 100px 0; text-align: center;\"\u003E\r\n  \u003Cbutton style=\"display: inline-block;\"\u003E次へ\u003C\u002Fbutton\u003E\r\n\u003C\u002Fdiv\u003E\r\n\r\n",
               "name": ""
             }
           ],
@@ -174,9 +174,7 @@ const study = lab.util.fromObject({
                 {
                   "required": true,
                   "type": "image",
-                  "src": "${ this.files[\"baby1.jpg\"] }",
-                  "width": "",
-                  "height": "",
+                  "src": "${ this.files[\"Slide1.jpg\"] }",
                   "name": ""
                 },
                 {
@@ -214,7 +212,7 @@ const study = lab.util.fromObject({
                 {
                   "required": true,
                   "type": "html",
-                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0;\"\u003E\u003Cbutton\u003E次へ\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\r\n",
+                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0; text-align: center;\"\u003E\r\n  \u003Cbutton style=\"display: inline-block;\"\u003E次へ\u003C\u002Fbutton\u003E\r\n\u003C\u002Fdiv\u003E\r\n\r\n",
                   "name": ""
                 }
               ],
@@ -222,7 +220,7 @@ const study = lab.util.fromObject({
               "submitButtonText": "次へ",
               "submitButtonPosition": "hidden",
               "files": {
-                "baby1.jpg": "embedded\u002F7f8942e40dc09ee8b888e9429d8a7126a5eb1ff920d143a7831abe487c8ea04b.jpg"
+                "Slide1.jpg": "embedded\u002F524b5b0e4b9a600808dca88c5604c36585d5790dcf2bbaefea45dc226118496f.jpg"
               },
               "responses": {
                 "": ""
@@ -240,7 +238,7 @@ const study = lab.util.fromObject({
                 {
                   "required": true,
                   "type": "image",
-                  "src": "${ this.files[\"baby2.jpg\"] }",
+                  "src": "${ this.files[\"Slide2.jpg\"] }",
                   "name": ""
                 },
                 {
@@ -278,7 +276,7 @@ const study = lab.util.fromObject({
                 {
                   "required": true,
                   "type": "html",
-                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0;\"\u003E\u003Cbutton\u003E次へ\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\r\n",
+                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0; text-align: center;\"\u003E\r\n  \u003Cbutton style=\"display: inline-block;\"\u003E次へ\u003C\u002Fbutton\u003E\r\n\u003C\u002Fdiv\u003E\r\n\r\n",
                   "name": ""
                 }
               ],
@@ -286,7 +284,7 @@ const study = lab.util.fromObject({
               "submitButtonText": "次へ",
               "submitButtonPosition": "hidden",
               "files": {
-                "baby2.jpg": "embedded\u002F9d818d9a53da70b609ce162684f161d743bf84461cc06205415724ba0a81ea06.jpg"
+                "Slide2.jpg": "embedded\u002F19a134c268b985e2e1c25084665ac3e12fb29574c40186e91b6e69d752ad9af1.jpg"
               },
               "responses": {
                 "": ""
@@ -304,7 +302,7 @@ const study = lab.util.fromObject({
                 {
                   "required": true,
                   "type": "image",
-                  "src": "${ this.files[\"baby3.jpg\"] }",
+                  "src": "${ this.files[\"あかさん.jpg\"] }",
                   "name": ""
                 },
                 {
@@ -342,7 +340,7 @@ const study = lab.util.fromObject({
                 {
                   "required": true,
                   "type": "html",
-                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0;\"\u003E\u003Cbutton\u003E次へ\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\r\n",
+                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0; text-align: center;\"\u003E\r\n  \u003Cbutton style=\"display: inline-block;\"\u003E次へ\u003C\u002Fbutton\u003E\r\n\u003C\u002Fdiv\u003E\r\n",
                   "name": ""
                 }
               ],
@@ -350,7 +348,8 @@ const study = lab.util.fromObject({
               "submitButtonText": "次へ",
               "submitButtonPosition": "hidden",
               "files": {
-                "baby3.jpg": "embedded\u002F570474a32a5fd045d4f611dab6566fb0139e9ac86d089effccb71f2c9e034cde.jpg"
+                "baby3.jpg": "embedded\u002F570474a32a5fd045d4f611dab6566fb0139e9ac86d089effccb71f2c9e034cde.jpg",
+                "あかさん.jpg": "embedded\u002Fd15e53dac43e1cf122efd333b81d9443cb193289c51f68fba761760113a80a9a.jpg"
               },
               "responses": {
                 "": ""
@@ -368,7 +367,7 @@ const study = lab.util.fromObject({
                 {
                   "required": true,
                   "type": "image",
-                  "src": "${ this.files[\"m-adult1.jpg\"] }",
+                  "src": "${ this.files[\"男①.jpg\"] }",
                   "name": ""
                 },
                 {
@@ -406,7 +405,7 @@ const study = lab.util.fromObject({
                 {
                   "required": true,
                   "type": "html",
-                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0;\"\u003E\u003Cbutton\u003E次へ\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\r\n",
+                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0; text-align: center;\"\u003E\r\n  \u003Cbutton style=\"display: inline-block;\"\u003E次へ\u003C\u002Fbutton\u003E\r\n\u003C\u002Fdiv\u003E\r\n",
                   "name": ""
                 }
               ],
@@ -414,7 +413,8 @@ const study = lab.util.fromObject({
               "submitButtonText": "次へ",
               "submitButtonPosition": "hidden",
               "files": {
-                "m-adult1.jpg": "embedded\u002F678fe4c0f57350a0b2f2866623d4e59ee9ee2ca4aad5f1e1958a5576f7bd11b7.jpg"
+                "m-adult1.jpg": "embedded\u002F678fe4c0f57350a0b2f2866623d4e59ee9ee2ca4aad5f1e1958a5576f7bd11b7.jpg",
+                "男①.jpg": "embedded\u002F5b44299ffbe0ad7381ecc6d2af5f88c372d7106e552840a13c6ae033bdcbe2e4.jpg"
               },
               "responses": {
                 "": ""
@@ -432,7 +432,7 @@ const study = lab.util.fromObject({
                 {
                   "required": true,
                   "type": "image",
-                  "src": "${ this.files[\"m-adult2.jpg\"] }",
+                  "src": "${ this.files[\"男②.jpg\"] }",
                   "name": ""
                 },
                 {
@@ -470,7 +470,7 @@ const study = lab.util.fromObject({
                 {
                   "required": true,
                   "type": "html",
-                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0;\"\u003E\u003Cbutton\u003E次へ\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\r\n",
+                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0; text-align: center;\"\u003E\r\n  \u003Cbutton style=\"display: inline-block;\"\u003E次へ\u003C\u002Fbutton\u003E\r\n\u003C\u002Fdiv\u003E\r\n",
                   "name": ""
                 }
               ],
@@ -478,7 +478,8 @@ const study = lab.util.fromObject({
               "submitButtonText": "次へ",
               "submitButtonPosition": "hidden",
               "files": {
-                "m-adult2.jpg": "embedded\u002F480dc6f83313c6ce64f6746f5fde6204b9d7d78534b5ea02cc60bf4c38f63213.jpg"
+                "m-adult2.jpg": "embedded\u002F480dc6f83313c6ce64f6746f5fde6204b9d7d78534b5ea02cc60bf4c38f63213.jpg",
+                "男②.jpg": "embedded\u002Fd0d14c34224bd00d31acce86d926ccfd5cc5c4d3990f073c3549581af09a045c.jpg"
               },
               "responses": {
                 "": ""
@@ -496,7 +497,7 @@ const study = lab.util.fromObject({
                 {
                   "required": true,
                   "type": "image",
-                  "src": "${ this.files[\"f-adult1.jpg\"] }",
+                  "src": "${ this.files[\"女①.jpg\"] }",
                   "name": ""
                 },
                 {
@@ -534,7 +535,7 @@ const study = lab.util.fromObject({
                 {
                   "required": true,
                   "type": "html",
-                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0;\"\u003E\u003Cbutton\u003E次へ\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\r\n",
+                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0; text-align: center;\"\u003E\r\n  \u003Cbutton style=\"display: inline-block;\"\u003E次へ\u003C\u002Fbutton\u003E\r\n\u003C\u002Fdiv\u003E\r\n",
                   "name": ""
                 }
               ],
@@ -542,7 +543,8 @@ const study = lab.util.fromObject({
               "submitButtonText": "次へ",
               "submitButtonPosition": "hidden",
               "files": {
-                "f-adult1.jpg": "embedded\u002Fc05e7ac9b3a2a52dd7d66030cfbf20f422214251c82fa10d8058da44517209cd.jpg"
+                "f-adult1.jpg": "embedded\u002Fc05e7ac9b3a2a52dd7d66030cfbf20f422214251c82fa10d8058da44517209cd.jpg",
+                "女①.jpg": "embedded\u002Fc149fa2342b2a413d3df1cf9a18c780d19abea3f680421b20e8eaf59e89faa84.jpg"
               },
               "responses": {
                 "": ""
@@ -560,7 +562,7 @@ const study = lab.util.fromObject({
                 {
                   "required": true,
                   "type": "image",
-                  "src": "${ this.files[\"f-adult2.jpg\"] }",
+                  "src": "${ this.files[\"女②.jpg\"] }",
                   "name": ""
                 },
                 {
@@ -598,7 +600,7 @@ const study = lab.util.fromObject({
                 {
                   "required": true,
                   "type": "html",
-                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0;\"\u003E\u003Cbutton\u003E次へ\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\r\n",
+                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0; text-align: center;\"\u003E\r\n  \u003Cbutton style=\"display: inline-block;\"\u003E次へ\u003C\u002Fbutton\u003E\r\n\u003C\u002Fdiv\u003E\r\n",
                   "name": ""
                 }
               ],
@@ -606,7 +608,8 @@ const study = lab.util.fromObject({
               "submitButtonText": "次へ",
               "submitButtonPosition": "hidden",
               "files": {
-                "f-adult2.jpg": "embedded\u002F38e60c68ebb52a529cad35b0cdeb352a0dea47417eaa15f64b88d5fdc408ed68.jpg"
+                "f-adult2.jpg": "embedded\u002F38e60c68ebb52a529cad35b0cdeb352a0dea47417eaa15f64b88d5fdc408ed68.jpg",
+                "女②.jpg": "embedded\u002F3bf7bcba753e752a18da59e4eda5f7005e26247ae9392097b6649eb4dbeca854.jpg"
               },
               "responses": {
                 "": ""
@@ -624,7 +627,7 @@ const study = lab.util.fromObject({
                 {
                   "required": true,
                   "type": "image",
-                  "src": "${ this.files[\"baby-rabbit.png\"] }",
+                  "src": "${ this.files[\"ウサギ.jpg\"] }",
                   "name": ""
                 },
                 {
@@ -662,7 +665,7 @@ const study = lab.util.fromObject({
                 {
                   "required": true,
                   "type": "html",
-                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0;\"\u003E\u003Cbutton\u003E次へ\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\r\n",
+                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0; text-align: center;\"\u003E\r\n  \u003Cbutton style=\"display: inline-block;\"\u003E次へ\u003C\u002Fbutton\u003E\r\n\u003C\u002Fdiv\u003E\r\n",
                   "name": ""
                 }
               ],
@@ -670,7 +673,8 @@ const study = lab.util.fromObject({
               "submitButtonText": "次へ",
               "submitButtonPosition": "hidden",
               "files": {
-                "baby-rabbit.png": "embedded\u002F2cab8bad6ebc413d24d2d215e87add6eca1d8053527cce1bd0baf1ebfa3cc417.png"
+                "baby-rabbit.png": "embedded\u002F2cab8bad6ebc413d24d2d215e87add6eca1d8053527cce1bd0baf1ebfa3cc417.png",
+                "ウサギ.jpg": "embedded\u002Fbfb5677bd20d7447b9f57a7e9c5aa1bffbeb5d39fd822c448a7c1021c13c36d9.jpg"
               },
               "responses": {
                 "": ""
@@ -688,7 +692,7 @@ const study = lab.util.fromObject({
                 {
                   "required": true,
                   "type": "image",
-                  "src": "${ this.files[\"baby-elephant.jpg\"] }",
+                  "src": "${ this.files[\"ゾウ.jpg\"] }",
                   "name": ""
                 },
                 {
@@ -726,7 +730,7 @@ const study = lab.util.fromObject({
                 {
                   "required": true,
                   "type": "html",
-                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0;\"\u003E\u003Cbutton\u003E次へ\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\r\n",
+                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0; text-align: center;\"\u003E\r\n  \u003Cbutton style=\"display: inline-block;\"\u003E次へ\u003C\u002Fbutton\u003E\r\n\u003C\u002Fdiv\u003E\r\n",
                   "name": ""
                 }
               ],
@@ -734,7 +738,8 @@ const study = lab.util.fromObject({
               "submitButtonText": "次へ",
               "submitButtonPosition": "hidden",
               "files": {
-                "baby-elephant.jpg": "embedded\u002Fbc9c0e5b5730f23b2f9b72ed363c988d4da16436503ea5d01cacc497a2857568.jpg"
+                "baby-elephant.jpg": "embedded\u002Fbc9c0e5b5730f23b2f9b72ed363c988d4da16436503ea5d01cacc497a2857568.jpg",
+                "ゾウ.jpg": "embedded\u002F8621863aa12927d44310a9b28213ab3d0a0f9a4870e2f9160a8dadcc624c4751.jpg"
               },
               "responses": {
                 "": ""
@@ -752,7 +757,7 @@ const study = lab.util.fromObject({
                 {
                   "required": true,
                   "type": "image",
-                  "src": "${ this.files[\"baby-horse.jpg\"] }",
+                  "src": "${ this.files[\"白馬.jpg\"] }",
                   "name": ""
                 },
                 {
@@ -790,7 +795,7 @@ const study = lab.util.fromObject({
                 {
                   "required": true,
                   "type": "html",
-                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0;\"\u003E\u003Cbutton\u003E次へ\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\r\n",
+                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0; text-align: center;\"\u003E\r\n  \u003Cbutton style=\"display: inline-block;\"\u003E次へ\u003C\u002Fbutton\u003E\r\n\u003C\u002Fdiv\u003E\r\n",
                   "name": ""
                 }
               ],
@@ -798,7 +803,8 @@ const study = lab.util.fromObject({
               "submitButtonText": "次へ",
               "submitButtonPosition": "hidden",
               "files": {
-                "baby-horse.jpg": "embedded\u002Fc86a611e43a9ef866678c1197a428ed3dc9abcfaee2849778409df864242c109.jpg"
+                "baby-horse.jpg": "embedded\u002Fc86a611e43a9ef866678c1197a428ed3dc9abcfaee2849778409df864242c109.jpg",
+                "白馬.jpg": "embedded\u002Ffb4cc7243d3eb7e369cd8db51b95efdd09a58a66431a93df78c82697ee65378b.jpg"
               },
               "responses": {
                 "": ""
@@ -816,7 +822,7 @@ const study = lab.util.fromObject({
                 {
                   "required": true,
                   "type": "image",
-                  "src": "${ this.files[\"adult-dog.jpg\"] }",
+                  "src": "${ this.files[\"いぬ.jpg\"] }",
                   "name": ""
                 },
                 {
@@ -854,7 +860,7 @@ const study = lab.util.fromObject({
                 {
                   "required": true,
                   "type": "html",
-                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0;\"\u003E\u003Cbutton\u003E次へ\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\r\n",
+                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0; text-align: center;\"\u003E\r\n  \u003Cbutton style=\"display: inline-block;\"\u003E次へ\u003C\u002Fbutton\u003E\r\n\u003C\u002Fdiv\u003E\r\n",
                   "name": ""
                 }
               ],
@@ -862,7 +868,8 @@ const study = lab.util.fromObject({
               "submitButtonText": "次へ",
               "submitButtonPosition": "hidden",
               "files": {
-                "adult-dog.jpg": "embedded\u002Ff6d5a121e2cc0e26883320a992c66eef9bfa03af7d90b70956ed5fd818987922.jpg"
+                "adult-dog.jpg": "embedded\u002Ff6d5a121e2cc0e26883320a992c66eef9bfa03af7d90b70956ed5fd818987922.jpg",
+                "いぬ.jpg": "embedded\u002F9463486122f56b60084c807e8ece00be4ae6467714c2f1a0d2ef50d5d11722ca.jpg"
               },
               "responses": {
                 "": ""
@@ -880,7 +887,7 @@ const study = lab.util.fromObject({
                 {
                   "required": true,
                   "type": "image",
-                  "src": "${ this.files[\"adult-horse.png\"] }",
+                  "src": "${ this.files[\"茶色馬.jpg\"] }",
                   "name": ""
                 },
                 {
@@ -918,7 +925,7 @@ const study = lab.util.fromObject({
                 {
                   "required": true,
                   "type": "html",
-                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0;\"\u003E\u003Cbutton\u003E次へ\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\r\n",
+                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0; text-align: center;\"\u003E\r\n  \u003Cbutton style=\"display: inline-block;\"\u003E次へ\u003C\u002Fbutton\u003E\r\n\u003C\u002Fdiv\u003E\r\n",
                   "name": ""
                 }
               ],
@@ -926,7 +933,8 @@ const study = lab.util.fromObject({
               "submitButtonText": "次へ",
               "submitButtonPosition": "hidden",
               "files": {
-                "adult-horse.png": "embedded\u002F16694be9f5423f6b53134638c01c78b57382a9375d76de73d166b8d445e90d2b.png"
+                "adult-horse.png": "embedded\u002F16694be9f5423f6b53134638c01c78b57382a9375d76de73d166b8d445e90d2b.png",
+                "茶色馬.jpg": "embedded\u002Fa9f27f36080622f90d5b22e267eea64f0d799de30899aa13f551f77a188d9b80.jpg"
               },
               "responses": {
                 "": ""
@@ -944,7 +952,7 @@ const study = lab.util.fromObject({
                 {
                   "required": true,
                   "type": "image",
-                  "src": "${ this.files[\"adult-lion.jpg\"] }",
+                  "src": "${ this.files[\"ライオン.jpg\"] }",
                   "name": ""
                 },
                 {
@@ -982,7 +990,7 @@ const study = lab.util.fromObject({
                 {
                   "required": true,
                   "type": "html",
-                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0;\"\u003E\u003Cbutton\u003E次へ\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\r\n",
+                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0; text-align: center;\"\u003E\r\n  \u003Cbutton style=\"display: inline-block;\"\u003E次へ\u003C\u002Fbutton\u003E\r\n\u003C\u002Fdiv\u003E\r\n",
                   "name": ""
                 }
               ],
@@ -990,7 +998,8 @@ const study = lab.util.fromObject({
               "submitButtonText": "次へ",
               "submitButtonPosition": "hidden",
               "files": {
-                "adult-lion.jpg": "embedded\u002Fddec2f368c8ea6c39a5ee9cb7a68ae47ce42605be9c597937383d2cb5497327b.jpg"
+                "adult-lion.jpg": "embedded\u002Fddec2f368c8ea6c39a5ee9cb7a68ae47ce42605be9c597937383d2cb5497327b.jpg",
+                "ライオン.jpg": "embedded\u002Fe24722e817edc71923321ac67694adc80b6e3b7b56bbdf109fecb2bfcd0c47d7.jpg"
               },
               "responses": {
                 "": ""
@@ -1008,7 +1017,7 @@ const study = lab.util.fromObject({
                 {
                   "required": true,
                   "type": "image",
-                  "src": "${ this.files[\"babyscema.jpg\"] }",
+                  "src": "${ this.files[\"かわいいべび.jpg\"] }",
                   "name": ""
                 },
                 {
@@ -1046,7 +1055,7 @@ const study = lab.util.fromObject({
                 {
                   "required": true,
                   "type": "html",
-                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0;\"\u003E\u003Cbutton\u003E次へ\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\r\n",
+                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0; text-align: center;\"\u003E\r\n  \u003Cbutton style=\"display: inline-block;\"\u003E次へ\u003C\u002Fbutton\u003E\r\n\u003C\u002Fdiv\u003E\r\n",
                   "name": ""
                 }
               ],
@@ -1054,7 +1063,8 @@ const study = lab.util.fromObject({
               "submitButtonText": "次へ",
               "submitButtonPosition": "hidden",
               "files": {
-                "babyscema.jpg": "embedded\u002Fbbe0f969237183a0b10705b3493106f85b2dce1d0dc74eff27339b9ca7a930a3.jpg"
+                "babyscema.jpg": "embedded\u002Fbbe0f969237183a0b10705b3493106f85b2dce1d0dc74eff27339b9ca7a930a3.jpg",
+                "かわいいべび.jpg": "embedded\u002F43934d40d26442345c5b551a38ffe9514e5e6997113217ff5106e59671c61336.jpg"
               },
               "responses": {
                 "": ""
@@ -1072,7 +1082,7 @@ const study = lab.util.fromObject({
                 {
                   "required": true,
                   "type": "image",
-                  "src": "${ this.files[\"n-babyscema.jpg\"] }",
+                  "src": "${ this.files[\"かわいくないべび.jpg\"] }",
                   "name": ""
                 },
                 {
@@ -1110,7 +1120,7 @@ const study = lab.util.fromObject({
                 {
                   "required": true,
                   "type": "html",
-                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0;\"\u003E\u003Cbutton\u003E次へ\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\r\n",
+                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0; text-align: center;\"\u003E\r\n  \u003Cbutton style=\"display: inline-block;\"\u003E次へ\u003C\u002Fbutton\u003E\r\n\u003C\u002Fdiv\u003E\r\n",
                   "name": ""
                 }
               ],
@@ -1118,7 +1128,8 @@ const study = lab.util.fromObject({
               "submitButtonText": "次へ",
               "submitButtonPosition": "hidden",
               "files": {
-                "n-babyscema.jpg": "embedded\u002Ffc2440e35c870525906756bb5246f2b605d9b9625f77adfeffd595fd833c6008.jpg"
+                "n-babyscema.jpg": "embedded\u002Ffc2440e35c870525906756bb5246f2b605d9b9625f77adfeffd595fd833c6008.jpg",
+                "かわいくないべび.jpg": "embedded\u002F7c48f91fa1772703f1a4acd92ae07f4cb1a2969cc16ab00a7f431a2aeef82cda.jpg"
               },
               "responses": {
                 "": ""
@@ -1140,7 +1151,7 @@ const study = lab.util.fromObject({
             {
               "required": true,
               "type": "html",
-              "content": "\u003Cdiv style=\"margin: 20px 0 100px 0;\"\u003E\u003Cbutton\u003E次へ\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E",
+              "content": "\u003Cdiv style=\"margin: 20px 0 100px 0; text-align: center;\"\u003E\r\n  \u003Cbutton style=\"display: inline-block;\"\u003E次へ\u003C\u002Fbutton\u003E\r\n\u003C\u002Fdiv\u003E",
               "name": ""
             }
           ],
@@ -1232,13 +1243,13 @@ const study = lab.util.fromObject({
                     "同意する",
                     "強く同意する"
                   ],
-                  "label": "以下の文は、あなたが親しい関係（例：恋人、親しい友人、家族など）において一般的に感じることに関するものです。それぞれの文について、どの程度同意するか、または同意しないかを示してください。以下の評価尺度を使用して、該当するものを選んでください。(強く同意しない、 同意しない、あまり同意しない、どちらでもない、やや同意する、同意する、強く同意する）",
+                  "label": "以下の文は、あなたが親しい関係（例：恋人、親しい友人、家族など）において一般的に感じることに関するものです。それぞれの文について、該当するものを選んでください。",
                   "name": "ECR-RS"
                 },
                 {
                   "required": true,
                   "type": "html",
-                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0;\"\u003E\u003Cbutton\u003E次へ\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\r\n",
+                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0; text-align: center;\"\u003E\r\n  \u003Cbutton style=\"display: inline-block;\"\u003E次へ\u003C\u002Fbutton\u003E\r\n\u003C\u002Fdiv\u003E\r\n",
                   "name": ""
                 }
               ],
@@ -1352,13 +1363,13 @@ const study = lab.util.fromObject({
                     "やや同意する",
                     "強く同意する"
                   ],
-                  "label": "ここに書かれている文章の内容に、あなたはどのぐらい同意するでしょうか。以下の評価尺度を使用して、該当するものを選んでください。  （強く同意しない、 やや同意しない、どちらでもない、やや同意する、強く同意する）",
+                  "label": "ここに書かれている文章の内容に、あなたはどのぐらい同意するでしょうか。それぞれの文について、該当するものを選んでください。  ",
                   "name": "BES"
                 },
                 {
                   "required": true,
                   "type": "html",
-                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0;\"\u003E\u003Cbutton\u003E次へ\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\r\n",
+                  "content": "\u003Cdiv style=\"margin: 20px 0 100px 0; text-align: center;\"\u003E\r\n  \u003Cbutton style=\"display: inline-block;\"\u003E次へ\u003C\u002Fbutton\u003E\r\n\u003C\u002Fdiv\u003E\r\n",
                   "name": ""
                 }
               ],
@@ -1470,7 +1481,7 @@ const study = lab.util.fromObject({
             {
               "required": true,
               "type": "html",
-              "content": "\u003Cdiv style=\"margin: 20px 0 100px 0;\"\u003E\u003Cbutton\u003E次へ\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\r\n",
+              "content": "\u003Cdiv style=\"margin: 20px 0 100px 0; text-align: center;\"\u003E\r\n  \u003Cbutton style=\"display: inline-block;\"\u003E次へ\u003C\u002Fbutton\u003E\r\n\u003C\u002Fdiv\u003E\r\n",
               "name": ""
             }
           ],
@@ -1496,7 +1507,7 @@ const study = lab.util.fromObject({
             {
               "required": true,
               "type": "html",
-              "content": "\u003Cdiv style=\"margin: 20px 0 100px 0;\"\u003E\u003Cbutton\u003E次へ\u003C\u002Fbutton\u003E\u003C\u002Fdiv\u003E\r\n",
+              "content": "\u003Cdiv style=\"margin: 20px 0 100px 0; text-align: center;\"\u003E\r\n  \u003Cbutton style=\"display: inline-block;\"\u003E次へ\u003C\u002Fbutton\u003E\r\n\u003C\u002Fdiv\u003E\r\n",
               "name": ""
             }
           ],
@@ -1508,9 +1519,33 @@ const study = lab.util.fromObject({
             "": ""
           },
           "parameters": {},
-          "messageHandlers": {},
+          "messageHandlers": {
+            "before:prepare": function anonymous(
+) {
+const participantID = this.parameters.participantID
+
+const filename = participantID + "_data.csv"
+const data = study.internals.controller.datastore.exportCsv();
+
+fetch("https://pipe.jspsych.org/api/data/", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+    Accept: "/",
+  },
+  body: JSON.stringify({
+    experimentID: "GsDgicvJuIch",
+    filename: filename,
+    data: data,
+  }),
+});
+
+
+}
+          },
           "title": "End_page",
-          "timeout": "1000"
+          "timeout": "1000",
+          "tardy": true
         }
       ]
     }
