@@ -1,0 +1,7 @@
+/*HTML PAGEの要素の幅を大きくする*/
+:root{
+ --width-min-container:auto;
+}
+.w-m{
+ width:auto;
+}
