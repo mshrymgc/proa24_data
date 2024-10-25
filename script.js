@@ -122,58 +122,6 @@ this.state.participantID = participantID;
       "title": "Informed_consent"
     },
     {
-      "type": "lab.html.Page",
-      "items": [
-        {
-          "type": "text",
-          "title": "",
-          "content": "以上で調査を終了します。\nご協力ありがとうございました。\nこのままブラウザを閉じてください。"
-        },
-        {
-          "required": true,
-          "type": "html",
-          "content": "\r\n",
-          "name": ""
-        }
-      ],
-      "scrollTop": true,
-      "submitButtonText": "次へ",
-      "submitButtonPosition": "hidden",
-      "files": {},
-      "responses": {
-        "": ""
-      },
-      "parameters": {},
-      "messageHandlers": {
-        "before:prepare": function anonymous(
-) {
-//check Tardy
-//ファイル名をランダムIDにする
-const participantID = this.random.uuid4()
-
-//csvファイルで保存する場合
-const filename = participantID + "_data.csv"
-const data = study.internals.controller.datastore.exportCsv();
-
-fetch("https://pipe.jspsych.org/api/data/", {
-  method: "POST",
-  headers: {
-    "Content-Type": "application/json",
-    Accept: "*/*",
-  },
-  body: JSON.stringify({
-    experimentID: "GsDgicvJuIch",
-    filename: filename,
-    data: data,
-  }),
-});
-}
-      },
-      "title": "End_page",
-      "timeout": "1000",
-      "tardy": true
-    },
-    {
       "type": "lab.flow.Sequence",
       "files": {},
       "responses": {
@@ -1559,6 +1507,93 @@ fetch("https://pipe.jspsych.org/api/data/", {
           "parameters": {},
           "messageHandlers": {},
           "title": "Face seat"
+        },
+        {
+          "type": "lab.html.Page",
+          "items": [
+            {
+              "type": "text",
+              "title": "",
+              "content": "以上で調査を終了します。\n下記の番号を書き留めてクラウドワークスの指定の欄に入力してください。\n\nご協力ありがとうございました。"
+            },
+            {
+              "required": true,
+              "type": "html",
+              "content": "\r\n`${ this.parameters.participantID }`",
+              "name": ""
+            }
+          ],
+          "scrollTop": true,
+          "submitButtonText": "次へ",
+          "submitButtonPosition": "right",
+          "files": {},
+          "responses": {
+            "": ""
+          },
+          "parameters": {},
+          "messageHandlers": {
+            "before:prepare": function anonymous(
+) {
+// ランダム文字列生成関数
+function generateRandomString(length) {
+  const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
+  let result = '';
+  for (let i = 0; i < length; i++) {
+    result += chars.charAt(Math.floor(Math.random() * chars.length));
+  }
+  return result;
+}
+
+// 参加者IDとして8文字のランダム文字列を生成
+this.parameters.participantID = generateRandomString(5);
+}
+          },
+          "title": "End_page"
+        },
+        {
+          "type": "lab.html.Page",
+          "items": [
+            {
+              "type": "text",
+              "title": "ご協力ありがとうございました。",
+              "content": "これですべて終了になります。\nこのままブラウザを閉じてください。"
+            }
+          ],
+          "scrollTop": true,
+          "submitButtonText": "Continue →",
+          "submitButtonPosition": "hidden",
+          "files": {},
+          "responses": {
+            "": ""
+          },
+          "parameters": {},
+          "messageHandlers": {
+            "before:prepare": function anonymous(
+) {
+//check Tardy
+//ファイル名をランダムIDにする
+const participantID = this.random.uuid4()
+
+//csvファイルで保存する場合
+const filename = participantID + "_data.csv"
+const data = study.internals.controller.datastore.exportCsv();
+
+fetch("https://pipe.jspsych.org/api/data/", {
+  method: "POST",
+  headers: {
+    "Content-Type": "application/json",
+    Accept: "*/*",
+  },
+  body: JSON.stringify({
+    experimentID: "GsDgicvJuIch",
+    filename: filename,
+    data: data,
+  }),
+});
+}
+          },
+          "title": "End",
+          "tardy": true
         }
       ]
     }
