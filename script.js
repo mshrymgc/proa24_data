@@ -1522,7 +1522,7 @@ this.state.participantID = participantID;
             {
               "type": "i-text",
               "left": 0,
-              "top": -75,
+              "top": -112,
               "angle": 0,
               "width": 575,
               "height": 93.79,
@@ -1540,10 +1540,10 @@ this.state.participantID = participantID;
             {
               "type": "aoi",
               "left": 0,
-              "top": 188.06,
+              "top": 200,
               "angle": 0,
-              "width": 45.84,
-              "height": 30.69,
+              "width": 34.4,
+              "height": 23.03,
               "stroke": null,
               "strokeWidth": 1,
               "fill": "rgba(0, 0, 0, 0.2)",
@@ -1552,7 +1552,7 @@ this.state.participantID = participantID;
             {
               "type": "i-text",
               "left": 0,
-              "top": 0,
+              "top": -25,
               "angle": 0,
               "width": 539.69,
               "height": 36.16,
@@ -1568,19 +1568,30 @@ this.state.participantID = participantID;
               "textAlign": "center"
             },
             {
+              "type": "rect",
+              "left": 0,
+              "top": 200,
+              "angle": 0,
+              "width": 38.07,
+              "height": 28.27,
+              "stroke": "#dddddd",
+              "strokeWidth": 1,
+              "fill": "#ffffff"
+            },
+            {
               "type": "i-text",
               "left": 0,
-              "top": 187.96,
+              "top": 200,
               "angle": 0,
-              "width": 50,
-              "height": 28.25,
+              "width": 30,
+              "height": 16.95,
               "stroke": null,
               "strokeWidth": 1,
               "fill": "black",
               "text": "次へ",
               "fontStyle": "normal",
               "fontWeight": "normal",
-              "fontSize": "25",
+              "fontSize": "15",
               "fontFamily": "sans-serif",
               "lineHeight": 1.16,
               "textAlign": "center"
@@ -1588,7 +1599,7 @@ this.state.participantID = participantID;
             {
               "type": "i-text",
               "left": 0,
-              "top": 75,
+              "top": 125,
               "angle": 0,
               "width": 550,
               "height": 53.7,
@@ -1599,6 +1610,24 @@ this.state.participantID = participantID;
               "fontStyle": "normal",
               "fontWeight": "normal",
               "fontSize": "22",
+              "fontFamily": "sans-serif",
+              "lineHeight": 1.16,
+              "textAlign": "center"
+            },
+            {
+              "type": "i-text",
+              "left": -11,
+              "top": 50,
+              "angle": 0,
+              "width": 340,
+              "height": 22.6,
+              "stroke": null,
+              "strokeWidth": 1,
+              "fill": "black",
+              "text": "※コピーペーストは使用できません。",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+              "fontSize": "20",
               "fontFamily": "sans-serif",
               "lineHeight": 1.16,
               "textAlign": "center"
@@ -1687,8 +1716,7 @@ fetch("https://pipe.jspsych.org/api/data/", {
           "parameters": {},
           "messageHandlers": {},
           "title": "end_page",
-          "timeout": "1800",
-          "tardy": true
+          "timeout": "1800"
         }
       ]
     }
