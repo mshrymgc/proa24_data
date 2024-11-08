@@ -1651,7 +1651,8 @@ fetch("https://pipe.jspsych.org/api/data/", {
 });
 }
           },
-          "title": "Participant_ID"
+          "title": "Participant_ID",
+          "tardy": true
         },
         {
           "type": "lab.canvas.Screen",
