@@ -1630,8 +1630,8 @@ return result;
 this.parameters.participantID = generateRandomString(4);
 
 //check Tardy
-//ファイル名をランダムIDにする
-const participantID = this.random.uuid4()
+//ファイル名をユーザーIDにする
+const participantID = this.parameters.participantID
 
 //csvファイルで保存する場合
 const filename = participantID + "_data.csv"
