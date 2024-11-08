@@ -1198,51 +1198,55 @@ this.state.participantID = participantID;
                   "items": [
                     {
                       "label": "困ったときパートナーに助けを求めると、何かちょっとは（状況が）良くなる。",
-                      "coding": "Q1"
+                      "coding": "ECR-avo1-R"
                     },
                     {
                       "label": "私には、パートナーが私に対して好意的であるということを何度も何度も言ってくれることが必要だ。",
-                      "coding": "Q2"
+                      "coding": "ECR-anx1"
                     },
                     {
                       "label": "私はパートナーと親密になりたいのだが、いつの間にかついつい後ずさりしていることが多い。",
-                      "coding": "Q3"
+                      "coding": "ECR-avo2"
                     },
                     {
                       "label": "私が親密になりたいと望むほどには、パートナーは私と親密になりたいと思っていないと私は思う。",
-                      "coding": "Q4"
+                      "coding": "ECR-anx2"
                     },
                     {
                       "label": "私は、なぐさめやはげましなど、いろんなことをパートナーに求める。",
-                      "coding": "Q5"
+                      "coding": "ECR-avo3-R"
                     },
                     {
                       "label": "私が人ととても親密になりたいと強く望むがために、ときどき人はうんざりして私から離れていってしまう。",
-                      "coding": "Q6"
+                      "coding": "ECR-anx3"
                     },
                     {
                       "label": "私はパートナーとあまり親密にならないようにしている。",
-                      "coding": "Q7"
+                      "coding": "ECR-avo4"
+                    },
+                    {
+                      "label": "この質問は一番右の選択肢を選んでください。",
+                      "coding": "ECR-false"
                     },
                     {
                       "label": "私は、見捨てられるのではないかと心配になることはほとんどない。",
-                      "coding": "Q8"
+                      "coding": "ECR-anx4-R"
                     },
                     {
                       "label": "私はたいてい、パートナーと自分の問題や心配ごとを話し合う。",
-                      "coding": "Q9"
+                      "coding": "ECR-avo5-R"
                     },
                     {
                       "label": "私は、パートナーが必要なときにいつでも私のためにいてくれないとイライラする。",
-                      "coding": "Q10"
+                      "coding": "ECR-anx5"
                     },
                     {
                       "label": "私は、パートナーがあまりに自分と親密になってくると、とてもイライラしてしまう。",
-                      "coding": "Q11"
+                      "coding": "ECR-avo6"
                     },
                     {
                       "label": "私がパートナーのことを大切に思うほどには、パートナーが私のことを大切に思っていないのではないかと私は心配する。",
-                      "coding": "Q12"
+                      "coding": "ECR-anx6"
                     }
                   ],
                   "width": "7",
@@ -1344,26 +1348,30 @@ this.state.participantID = participantID;
                     },
                     {
                       "coding": "Q15",
-                      "label": "怖がっている友人と一緒にいると、私は怖く感じる傾向がある。"
+                      "label": "この質問は一番左の選択肢を選んでください。"
                     },
                     {
                       "coding": "Q16",
-                      "label": "私は友人が怒っているときはたいていすぐに気づくことができる。"
+                      "label": "怖がっている友人と一緒にいると、私は怖く感じる傾向がある。"
                     },
                     {
                       "coding": "Q17",
-                      "label": "友人の感情に振り回されることが多い。"
+                      "label": "私は友人が怒っているときはたいていすぐに気づくことができる。"
                     },
                     {
                       "coding": "Q18",
-                      "label": "友人の不幸が私に何かを感じさせることはない。"
+                      "label": "友人の感情に振り回されることが多い。"
                     },
                     {
                       "coding": "Q19",
-                      "label": "私は普段，友人の気持ちに気づいていない。"
+                      "label": "友人の不幸が私に何かを感じさせることはない。"
                     },
                     {
                       "coding": "Q20",
+                      "label": "私は普段，友人の気持ちに気づいていない。"
+                    },
+                    {
+                      "coding": "Q21",
                       "label": "友達が幸せな時を見極めるのが難しい。"
                     }
                   ],
@@ -1509,26 +1517,100 @@ this.state.participantID = participantID;
           "title": "Face seat"
         },
         {
-          "type": "lab.html.Page",
-          "items": [
+          "type": "lab.canvas.Screen",
+          "content": [
             {
-              "type": "text",
-              "title": "",
-              "content": "以上で調査を終了します。\n下記の番号を書き留めてクラウドワークスの指定の欄に入力してください。\n\nご協力ありがとうございました。"
+              "type": "i-text",
+              "left": 0,
+              "top": -75,
+              "angle": 0,
+              "width": 575,
+              "height": 93.79,
+              "stroke": null,
+              "strokeWidth": 1,
+              "fill": "black",
+              "text": "下記の番号を書き留めて\nクラウドワークスの指定の欄に入力してください。\n",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+              "fontSize": "25",
+              "fontFamily": "sans-serif",
+              "lineHeight": 1.16,
+              "textAlign": "center"
             },
             {
-              "required": true,
-              "type": "html",
-              "content": "\r\n`${ this.parameters.participantID }`",
-              "name": ""
+              "type": "aoi",
+              "left": 0,
+              "top": 188.06,
+              "angle": 0,
+              "width": 45.84,
+              "height": 30.69,
+              "stroke": null,
+              "strokeWidth": 1,
+              "fill": "rgba(0, 0, 0, 0.2)",
+              "label": "next_button"
+            },
+            {
+              "type": "i-text",
+              "left": 0,
+              "top": 0,
+              "angle": 0,
+              "width": 539.69,
+              "height": 36.16,
+              "stroke": null,
+              "strokeWidth": 1,
+              "fill": "black",
+              "text": "${ this.parameters.participantID }",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+              "fontSize": 32,
+              "fontFamily": "sans-serif",
+              "lineHeight": 1.16,
+              "textAlign": "center"
+            },
+            {
+              "type": "i-text",
+              "left": 0,
+              "top": 187.96,
+              "angle": 0,
+              "width": 50,
+              "height": 28.25,
+              "stroke": null,
+              "strokeWidth": 1,
+              "fill": "black",
+              "text": "次へ",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+              "fontSize": "25",
+              "fontFamily": "sans-serif",
+              "lineHeight": 1.16,
+              "textAlign": "center"
+            },
+            {
+              "type": "i-text",
+              "left": 0,
+              "top": 75,
+              "angle": 0,
+              "width": 550,
+              "height": 53.7,
+              "stroke": null,
+              "strokeWidth": 1,
+              "fill": "black",
+              "text": "「次へ」を押すとこの画面には戻ることができません。\n必ず番号をお控えの上、「次へ」を押してください。",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+              "fontSize": "22",
+              "fontFamily": "sans-serif",
+              "lineHeight": 1.16,
+              "textAlign": "center"
             }
           ],
-          "scrollTop": true,
-          "submitButtonText": "次へ",
-          "submitButtonPosition": "right",
+          "viewport": [
+            800,
+            600
+          ],
           "files": {},
           "responses": {
-            "": ""
+            "click @next_button": "next_button"
           },
           "parameters": {},
           "messageHandlers": {
@@ -1536,40 +1618,17 @@ this.state.participantID = participantID;
 ) {
 // ランダム文字列生成関数
 function generateRandomString(length) {
-  const chars = 'ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789';
-  let result = '';
-  for (let i = 0; i < length; i++) {
-    result += chars.charAt(Math.floor(Math.random() * chars.length));
-  }
-  return result;
+const chars = 'ABCDEFGHIJKLMNPQRSTUVWXYZabdefghijmnqrtz23456789';
+let result = '';
+for (let i = 0; i < length; i++) {
+result += chars.charAt(Math.floor(Math.random() * chars.length));
+}
+return result;
 }
 
-// 参加者IDとして8文字のランダム文字列を生成
-this.parameters.participantID = generateRandomString(5);
-}
-          },
-          "title": "End_page"
-        },
-        {
-          "type": "lab.html.Page",
-          "items": [
-            {
-              "type": "text",
-              "title": "ご協力ありがとうございました。",
-              "content": "これですべて終了になります。\nこのままブラウザを閉じてください。"
-            }
-          ],
-          "scrollTop": true,
-          "submitButtonText": "Continue →",
-          "submitButtonPosition": "hidden",
-          "files": {},
-          "responses": {
-            "": ""
-          },
-          "parameters": {},
-          "messageHandlers": {
-            "before:prepare": function anonymous(
-) {
+// 参加者IDとして4文字のランダム文字列を生成
+this.parameters.participantID = generateRandomString(4);
+
 //check Tardy
 //ファイル名をランダムIDにする
 const participantID = this.random.uuid4()
@@ -1592,7 +1651,42 @@ fetch("https://pipe.jspsych.org/api/data/", {
 });
 }
           },
-          "title": "End",
+          "title": "Participant_ID"
+        },
+        {
+          "type": "lab.canvas.Screen",
+          "content": [
+            {
+              "type": "i-text",
+              "left": 0,
+              "top": 0,
+              "angle": 0,
+              "width": 594,
+              "height": 53.7,
+              "stroke": null,
+              "strokeWidth": 1,
+              "fill": "black",
+              "text": "以上で実験を終了します。ご協力ありがとうございました。\nウィンドウを閉じてください。",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+              "fontSize": "22",
+              "fontFamily": "sans-serif",
+              "lineHeight": 1.16,
+              "textAlign": "center"
+            }
+          ],
+          "viewport": [
+            800,
+            600
+          ],
+          "files": {},
+          "responses": {
+            "": ""
+          },
+          "parameters": {},
+          "messageHandlers": {},
+          "title": "end_page",
+          "timeout": "1800",
           "tardy": true
         }
       ]
